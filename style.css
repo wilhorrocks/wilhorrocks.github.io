@@ -1,1 +1,187 @@
 
+
+/* Color Theme Swatches in HSLA 
+Black { color: hsla(56, 5, 4, 1); }
+Cream { color: hsla(33, 29, 78, 1); }
+Brown { color: hsla(22, 30, 49, 1); }
+Pink { color: hsla(22, 53, 68, 1); }
+Red { color: hsla(11, 36, 47, 1); }
+*/
+
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    background-image: url("Aesopnologotsp.png");
+    background-size: contain;
+    
+   
+  }
+  
+  /*FONT STYLES*/
+  
+  h1{
+    Font-Family: 'Oswald', Sans-Serif;
+    Font-Size: 3.99rem;
+    color: hsla(56, 5%, 4%, 1);
+    background-color: hsla(22, 53%, 68%, 1);
+    /*padding: 1.5rem;*/
+    
+    /*width: 70%;*/
+  }
+  
+  h2{
+    Font-Family: 'Oswald', Sans-Serif;
+    Font-Size: 2.66rem;
+    background-color: hsla(22, 53%, 75%, .5);
+    text-align:center;
+    margin-top: .66rem;
+    
+  }
+  
+  h3{
+    Font-Family: 'Oswald', Sans-Serif;
+    Font-Size: 2.66px;
+    background-color: hsla(22, 53%, 85%, .5);
+    color: hsla(11, 36%, 47%, 1);
+    text-align:center;
+    margin-top: .33rem;
+  }
+  h4{
+    Font-Family: 'Oswald', Sans-Serif;
+    Font-Size: 2rem;
+    hsla(56, 5%, 4%, 1);
+    /*color: hsla(11, 36%, 47%, .5);*/
+  
+    
+    } 
+    
+  h5{
+    Font-Family: 'Quattrocento', Serif;
+    Font-Size: 16px;
+    background-color: hsla(22, 53%, 68%, 1);
+    text-align:center;
+    padding: 1.33rem;
+    letter-spacing: rem;
+    font-style: italic;
+  
+  }
+  
+  p{
+    Font-Family: 'Quattrocento', Serif;
+    Font-Size: 16px;
+    background-color: hsla(22, 53%, 68%, .5);
+    text-align:center;
+    
+    padding: 1.33rem;
+    letter-spacing: .33rem;
+  }
+  
+  /*SECTIONS*/
+  
+  nav{
+    margin-top: 150px;
+  }
+  
+  
+  .header{
+    
+    position: fixed;
+    /*display: flex;
+   
+    flex-direction: column;*/
+    opacity: 0.9;
+    z-index: 5;
+     /*justify-content: center;*/
+  }
+  
+  
+    
+  
+  
+  ul{
+    /*display:flex;*/
+    /*justify-content: center;*/
+    list-style: none;
+    margin-bottom: 0.33rem;
+  }
+  
+  li{
+    padding: 1.33rem;
+    font-Family: 'Quattrocento', Serif;
+    Font-Size: 16px;
+    background-color: hsla(11, 36%, 47%, .8);
+  }
+  /*
+  
+  .logos{
+    display: inline-flex;
+  }
+  
+  .aesop{
+    background-image: url("worldwide.eps")
+    width: 150px;
+    height: auto;
+  }
+  */
+  
+  .intro{
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .series{
+    position: relative;
+    top: 150px;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  .one{
+    width: 75%
+  
+  }
+  
+  .nedda{
+    background-image: url("nedda.jpg");
+    height: 400px;
+   /*background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;*/
+    background-size: cover;
+    opacity:0.9;
+  }
+  
+  .closetyi{
+    background-image: url("closetyi.jpg");
+    height: 400px;
+   /*background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;*/
+    background-size: cover;
+    opacity:0.9;
+  }
+  
+  footer{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .66rem;
+  }
+  
+  footer h5{
+    width: 80%;
+  }
+  
+  
+  
+  
